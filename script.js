@@ -30,5 +30,6 @@ Array.from(minus).map(mn => {
             mn.previousElementSibling.innerHTML = 0;}
              else {
              mn.previousElementSibling.innerHTML--;
+             total.innerHTML=parseInt(total.innerHTML)-parseInt(mn.parentElement.nextElementSibling.firstChild.innerHTML)
             }
     })})
